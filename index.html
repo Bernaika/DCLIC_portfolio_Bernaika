@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Portfolio Bernaïka ABÉLARD</title>
+
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Lien vers le JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- ██████████████████████████████████████████████████████████
+     HEADER + BANNIÈRE 
+     La bannière représente un environnement administratif.
+██████████████████████████████████████████████████████████ -->
+<header class="header">
+
+    <div class="page-banner">
+        <!-- Image de bannière → va chercher le fichier dans le dossier image/ -->
+        <img src="image/Administration.jpg" alt="Admin Banner">
+    </div>
+
+    <!-- Menu de navigation -->
+    <nav class="navbar container">
+        <div class="logo">ABÉLARD Bernaïka</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="projects.html">Expériences</a></li>
+            <li><a href="skills.html">Compétences</a></li>
+            <li><a href="hobbies.html">Centres d’intérêt</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ██████████████████████████████████████████████████████████
+     SECTION HERO (Accueil)
+     Texte + photo de Berna côté droit
+██████████████████████████████████████████████████████████ -->
+<section class="hero container">
+
+    <!-- Texte de présentation -->
+    <div class="hero-text">
+        <h1>
+            Je suis <span class="accent">Bernaïka</span>, professionnelle
+            en Administration & Ressources Humaines.
+        </h1>
+
+        <p>
+            Étudiante en Gestion des Affaires, je m’intéresse à l’administration,
+            au support aux équipes, aux ressources humaines et au travail humanitaire.
+        </p>
+
+        <a href="projects.html" class="btn btn-primary">Voir mes expériences</a>
+    </div>
+
+    <!-- Photo de Berna -->
+    <div class="hero-image">
+        <img src="image/berna.jpg" alt="Photo de Bernaïka ABÉLARD">
+    </div>
+
+</section>
+
+<!-- ██████████████████████████████████████████████████████████
+     APERÇU À PROPOS
+     Petite introduction + image ronde
+██████████████████████████████████████████████████████████ -->
+<section class="section-light">
+    <div class="container about-home">
+
+        <h2 class="section-title">À propos</h2>
+
+        <div class="about-home-grid">
+
+            <div>
+                <p>
+                    Je m’appelle <strong>Bernaïka ABÉLARD</strong>, étudiante en
+                    <strong>Gestion des Affaires</strong>. Je développe un intérêt profond
+                    pour l’administration, l’organisation de documents, le classement,
+                    et l'appui administratif.
+                </p>
+
+                <p>
+                    Motivante, sérieuse et respectueuse, j’apprécie les environnements
+                    professionnels bien structurés.
+                </p>
+
+                <a href="about.html" class="btn btn-primary">En savoir plus</a>
+            </div>
+
+            <!-- Photo ronde → tirée du dossier image/ -->
+            <img src="image/travail.jpg"
+                 alt="Travail administratif"
+                 class="about-round">
+        </div>
+
+    </div>
+</section>
+
+<!-- ██████████████████████████████████████████████████████████
+     APERÇU DES EXPÉRIENCES
+     Trois cartes avec images
+██████████████████████████████████████████████████████████ -->
+<section class="section-white">
+    <div class="container">
+
+        <h2 class="section-title">Mes expériences</h2>
+
+        <div class="projects-list">
+
+            <!-- Carte 1 : RH -->
+            <div class="card project-card">
+                <img src="image/rh.jpg" alt="Ressources Humaines" class="project-home-img">
+                <p><strong>Stagiaire Administration & RH</strong> – Concern Worldwide</p>
+                <p class="project-tags">#administration #RH #ONG</p>
+                <a href="projects.html" class="btn btn-primary">Voir</a>
+            </div>
+
+            <!-- Carte 2 : travail avec les enfants -->
+            <div class="card project-card">
+                <img src="image/jeux_enfants.jpg" alt="Enfants" class="project-home-img">
+                <p><strong>Animation & accompagnement</strong> – activités éducatives et chapelle des enfants</p>
+                <p class="project-tags">#enfance #animation</p>
+                <a href="projects.html" class="btn btn-primary">Voir</a>
+            </div>
+
+            <!-- Carte 3 : support administratif -->
+            <div class="card project-card">
+                <img src="image/projet.jpg" alt="Projet" class="project-home-img">
+                <p><strong>Soutien administratif</strong> – organisation de documents et tâches de support</p>
+                <p class="project-tags">#organisation #support</p>
+                <a href="projects.html" class="btn btn-primary">Voir</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ██████████████████████████████████████████████████████████
+     COMPÉTENCES 
+██████████████████████████████████████████████████████████ -->
+<section class="section-light">
+    <div class="container">
+
+        <h2 class="section-title">Mes Compétences</h2>
+
+        <div class="skills-home">
+
+            <!-- Carte Soft Skills -->
+            <div class="card skills-card">
+                <h3>Soft Skills</h3>
+
+                <div class="skill">
+                    <span class="skill-title">Organisation</span>
+                    <p class="skill-desc">Planification et classement administratif.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-title">Travail en équipe</span>
+                    <p class="skill-desc">Communication et collaboration.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-title">Sens du service</span>
+                    <p class="skill-desc">Soutien aux collègues et accueil.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+            </div>
+
+            <!-- Carte Hard Skills -->
+            <div class="card skills-card">
+                <h3>Hard Skills</h3>
+
+                <div class="skill">
+                    <span class="skill-title">Microsoft Office</span>
+                    <p class="skill-desc">Word, Excel, PowerPoint – niveau opérationnel.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-title">Administration</span>
+                    <p class="skill-desc">Organisation, archivage, traitement de documents.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-title">Bases en RH</span>
+                    <p class="skill-desc">Support administratif pour les tâches RH.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ██████████████████████████████████████████████████████████
+     SECTION CONTACT
+██████████████████████████████████████████████████████████ -->
+<section class="section-dark">
+    <div class="container contact-container">
+
+        <h2 class="contact-title">
+            Vous souhaitez me contacter ?  
+            <br><span class="accent">Laissez-moi un message</span>
+        </h2>
+
+        <form id="contact-form" class="contact-form">
+
+            <div class="form-row">
+                <input type="text" id="prenom" placeholder="Votre prénom">
+                <input type="text" id="nom" placeholder="Votre nom">
+            </div>
+
+            <input type="text" id="sujet" placeholder="Sujet">
+            <textarea id="message" rows="5" placeholder="Votre message..."></textarea>
+
+            <button type="submit" class="btn btn-primary btn-large">Envoyer</button>
+
+            <!-- Messages -->
+            <p id="form-success" class="success-message"></p>
+            <p id="prenom-error" class="error-message"></p>
+            <p id="nom-error" class="error-message"></p>
+            <p id="message-error" class="error-message"></p>
+        </form>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container footer-content">
+        <p>Designed by <span class="accent">Bernaïka</span> with HTML, CSS, JS</p>
+        <p>Tous droits réservés - 2025</p>
+    </div>
+</footer>
+
+</body>
+</html>
